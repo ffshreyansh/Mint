@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    background-image: linear-gradient(rgba(164, 235, 185, 0.5), rgba(174, 244, 253, 0.5)), url("../img/bg.jpg");
+    /* background-image:url("../img/bg.jpg"); */
+    background-color: #0BC675;
     height: 100vh;
     width: 100%;
     background-attachment: fixed;
@@ -55,26 +56,61 @@ header {
     word-spacing: 2px;
     letter-spacing: 1px;
     border-bottom: 3px solid #14CC60;
+   
 
 }
-
-.but {
+/* 
+.but{
     background-color: #14CC60;
-    font-family: 'Roboto', sans-serif;
-    /* text-align: end;
-    margin-top: 7px; */
-    border-radius: 0.25rem;
     color: white !important;
-}
+    border-color: black;
+    border-width: 2px;
+    border-radius: .75rem;
+} */
 
-.but:hover {
+/* .but:hover {
     background-color: #14CC60;
-}
+} */
 
-.navbar-nav .nav-link.login {
+.navbar-nav .nav-link {
     display: inline-block;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    
+}
+.login{
+    color: #14CC60;
+    margin-left: 30px;
+    
+    border-color: black;
+    border-radius: 0.25rem;
+    border-width: 2px;
+    
+}
+
+.login:hover{
+    background-color: #14CC60;
+    color: white;
+    border-color: black;
+    border-width: 2px;
+
+}
+
+
+.signup{
+    color: white;
+    margin-top: 30px;
+    
+    border-color: black;
+    border-radius: 0.25rem;
+    border-width: 2px;
+
+}
+.signup:hover{
+    background-color: white;
+    color: #14CC60;
+    border-color: black;
+    border-width: 2px;
 }
 
 .qou {
@@ -176,3 +212,24 @@ div {
 .nav li {
     align-items: center;
 }
+
+.navbar-brand{
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 800;
+
+}
+.nav-link{
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.qoum{
+    font-family: 'Satoshi', sans-serif;
+    font-weight: bold;
+    color: white;
+    /* margin-right:px; */
+    text-align: left;
+}
+/* .btn-primary{
+    --bs-btn-padding-x: 3rem;
+} */
